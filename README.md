@@ -17,6 +17,8 @@ We take a large JSON file of recipes, clean it up, and store it in a database. T
 ### 1. Database Setup & Schema
 First, make sure you have PostgreSQL running. We've provided scripts to make setup a breeze, but here is the raw SQL schema if you want to see how the sausage is made (or create the table manually):
 
+DB PASS: 1234
+
 **SQL Schema (`database/schema.sql`):**
 ```sql
 CREATE TABLE recipes (
